@@ -14,7 +14,7 @@ void Iterative_MergeSort(int a[],int n)
         }
     }
     if(p/2<n)
-        mergee(a,0,p/2,n-1);
+        mergee(a,0,p/2-1,n-1);
 }
 
 void mergee(int a[],int low,int mid,int high)
